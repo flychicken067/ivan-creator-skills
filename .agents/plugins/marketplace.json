@@ -1,0 +1,32 @@
+{
+  "name": "ivan-creator-skills",
+  "interface": {
+    "displayName": "Ivan Creator Skills"
+  },
+  "plugins": [
+    {
+      "name": "ivan-human-ui",
+      "source": {
+        "source": "local",
+        "path": "./plugins/ivan-human-ui"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Design"
+    },
+    {
+      "name": "ivan-skill-value-cover",
+      "source": {
+        "source": "local",
+        "path": "./plugins/ivan-skill-value-cover"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

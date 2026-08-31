@@ -54,4 +54,4 @@ Use the [10-minute creator test](docs/10-MINUTE-CREATOR-TEST.zh-CN.md). A real t
 
 ## License
 
-MIT
+MIT. Asset provenance and third-party-use notes are documented in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).

@@ -1,6 +1,6 @@
 {
   "name": "ivan-skill-value-cover",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Turn an abstract Agent Skill into a scene-based input/output value cover without inventing evidence.",
   "author": {
     "name": "Ivan"

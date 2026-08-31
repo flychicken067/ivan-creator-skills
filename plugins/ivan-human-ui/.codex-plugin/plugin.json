@@ -1,0 +1,31 @@
+{
+  "name": "ivan-human-ui",
+  "version": "1.0.1",
+  "description": "Diagnose and remove generic AI-template patterns from real interfaces, then verify the result.",
+  "author": {
+    "name": "Ivan",
+    "email": "flychicken067@users.noreply.github.com",
+    "url": "https://github.com/flychicken067"
+  },
+  "homepage": "https://github.com/flychicken067/ivan-creator-skills",
+  "repository": "https://github.com/flychicken067/ivan-creator-skills",
+  "license": "MIT",
+  "keywords": ["ui", "design-review", "human-ui", "agent-skills"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Ivan Human UI",
+    "shortDescription": "Remove generic AI patterns from interfaces",
+    "longDescription": "Reviews a real interface, identifies generic AI-template patterns, applies a restrained human-facing design direction, and verifies the observable result.",
+    "developerName": "Ivan",
+    "category": "Design",
+    "capabilities": ["Interactive", "Read", "Write"],
+    "websiteURL": "https://github.com/flychicken067/ivan-creator-skills",
+    "defaultPrompt": [
+      "Review this interface and remove generic AI-template patterns.",
+      "Make this page clearer and more human without changing its core flow.",
+      "Audit this UI, apply focused fixes, and verify the result."
+    ],
+    "brandColor": "#F04A0A",
+    "screenshots": []
+  }
+}

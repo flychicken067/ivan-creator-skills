@@ -1,0 +1,31 @@
+{
+  "name": "ivan-skill-value-cover",
+  "version": "1.0.1",
+  "description": "Turn an abstract Agent Skill into a scene-based input/output value cover without inventing evidence.",
+  "author": {
+    "name": "Ivan",
+    "email": "flychicken067@users.noreply.github.com",
+    "url": "https://github.com/flychicken067"
+  },
+  "homepage": "https://github.com/flychicken067/ivan-creator-skills",
+  "repository": "https://github.com/flychicken067/ivan-creator-skills",
+  "license": "MIT",
+  "keywords": ["agent-skills", "creator-tools", "value-cover", "visual-storytelling"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Ivan Skill Value Cover",
+    "shortDescription": "Show a Skill's input-output value clearly",
+    "longDescription": "Turns an abstract Skill description into a scene-based before-and-after value cover grounded in the actual input, transformation, and deliverable.",
+    "developerName": "Ivan",
+    "category": "Productivity",
+    "capabilities": ["Interactive", "Read", "Write"],
+    "websiteURL": "https://github.com/flychicken067/ivan-creator-skills",
+    "defaultPrompt": [
+      "Turn this Skill into a clear before-and-after value cover.",
+      "Show this Skill's real input, transformation, and usable output.",
+      "Create a grounded value cover without inventing evidence."
+    ],
+    "brandColor": "#F04A0A",
+    "screenshots": []
+  }
+}

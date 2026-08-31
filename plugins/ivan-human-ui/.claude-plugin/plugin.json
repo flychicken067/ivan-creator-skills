@@ -1,6 +1,6 @@
 {
   "name": "ivan-human-ui",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Diagnose and remove generic AI-template patterns from real interfaces, then verify the result.",
   "author": {
     "name": "Ivan"
