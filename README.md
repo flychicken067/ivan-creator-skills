@@ -28,7 +28,14 @@ Each plugin is isolated under `plugins/<plugin-name>` and follows Claude Code's 
 
 ## OpenAI Codex
 
-Use `$skill-installer` with one public Skill directory:
+Install either Skill directly from the public GitHub repository with the standard Skills CLI:
+
+```bash
+npx skills add flychicken067/ivan-creator-skills --skill ivan-human-ui
+npx skills add flychicken067/ivan-creator-skills --skill ivan-skill-value-cover
+```
+
+Both commands have been verified against a clean temporary project. You can also use `$skill-installer` with one public Skill directory:
 
 ```text
 https://github.com/flychicken067/ivan-creator-skills/tree/main/plugins/ivan-human-ui/skills/ivan-human-ui
