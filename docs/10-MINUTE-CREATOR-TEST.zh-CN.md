@@ -55,7 +55,7 @@ Finally report the changed files and the visible verification result.
 ### Claude Code
 
 ```text
-/plugin marketplace add flychicken067/ivan-creator-skills
+/plugin marketplace add https://github.com/flychicken067/ivan-creator-skills.git
 /plugin install ivan-human-ui@ivan-creator-skills
 /plugin install ivan-skill-value-cover@ivan-creator-skills
 ```
