@@ -1,6 +1,6 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
-  "name": "ivan-creator-tools",
+  "name": "ivan-creator-skills",
   "owner": {
     "name": "Ivan",
     "email": "flychicken067@users.noreply.github.com"
