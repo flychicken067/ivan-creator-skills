@@ -56,8 +56,8 @@ Finally report the changed files and the visible verification result.
 
 ```text
 /plugin marketplace add flychicken067/ivan-creator-skills
-/plugin install ivan-human-ui@ivan-creator-tools
-/plugin install ivan-skill-value-cover@ivan-creator-tools
+/plugin install ivan-human-ui@ivan-creator-skills
+/plugin install ivan-skill-value-cover@ivan-creator-skills
 ```
 
 ### Codex
