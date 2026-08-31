@@ -19,7 +19,7 @@ Use it for marketplace cards, detail pages, launch posts, and creator documentat
 ## Claude Code
 
 ```text
-/plugin marketplace add flychicken067/ivan-creator-skills
+/plugin marketplace add https://github.com/flychicken067/ivan-creator-skills.git
 /plugin install ivan-human-ui@ivan-creator-skills
 /plugin install ivan-skill-value-cover@ivan-creator-skills
 ```
