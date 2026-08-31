@@ -20,8 +20,8 @@ Use it for marketplace cards, detail pages, launch posts, and creator documentat
 
 ```text
 /plugin marketplace add flychicken067/ivan-creator-skills
-/plugin install ivan-human-ui@ivan-creator-tools
-/plugin install ivan-skill-value-cover@ivan-creator-tools
+/plugin install ivan-human-ui@ivan-creator-skills
+/plugin install ivan-skill-value-cover@ivan-creator-skills
 ```
 
 Each plugin is isolated under `plugins/<plugin-name>` and follows Claude Code's marketplace layout.
