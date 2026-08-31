@@ -1,0 +1,10 @@
+{
+  "name": "ivan-skill-value-cover",
+  "version": "1.0.0",
+  "description": "Turn an abstract Agent Skill into a scene-based input/output value cover without inventing evidence.",
+  "author": {
+    "name": "Ivan"
+  },
+  "license": "MIT",
+  "keywords": ["agent-skills", "creator-tools", "value-cover", "visual-storytelling"]
+}

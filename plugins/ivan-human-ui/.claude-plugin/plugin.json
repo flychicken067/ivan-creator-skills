@@ -1,0 +1,10 @@
+{
+  "name": "ivan-human-ui",
+  "version": "1.0.0",
+  "description": "Diagnose and remove generic AI-template patterns from real interfaces, then verify the result.",
+  "author": {
+    "name": "Ivan"
+  },
+  "license": "MIT",
+  "keywords": ["ui", "design-review", "human-ui", "agent-skills"]
+}

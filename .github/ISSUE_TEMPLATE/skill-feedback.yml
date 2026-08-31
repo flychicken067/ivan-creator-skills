@@ -1,0 +1,58 @@
+name: Skill 真实运行反馈
+description: 记录平台、输入、输出和可定位失败，帮助复现与回归。
+title: "[Feedback] "
+labels: ["feedback"]
+body:
+  - type: dropdown
+    id: skill
+    attributes:
+      label: Skill
+      options:
+        - ivan-human-ui
+        - ivan-skill-value-cover
+    validations:
+      required: true
+  - type: dropdown
+    id: platform
+    attributes:
+      label: 运行平台
+      options:
+        - Claude Code
+        - Claude.ai
+        - OpenAI Codex
+        - WorkBuddy
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: 版本或 Git commit
+      placeholder: v1.0.0 或 commit SHA
+  - type: textarea
+    id: input
+    attributes:
+      label: 脱敏后的输入
+      description: 不要提交公司、客户、账号、密钥或个人敏感资料。
+    validations:
+      required: true
+  - type: textarea
+    id: output
+    attributes:
+      label: 实际输出或失败位置
+      description: 请粘贴关键输出、错误信息或截图链接。
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 你原本期待什么
+    validations:
+      required: true
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: 提交前确认
+      options:
+        - label: 我已经移除未公开公司资料、客户资料、账号与密钥。
+          required: true

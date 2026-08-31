@@ -1,0 +1,27 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "ivan-creator-tools",
+  "owner": {
+    "name": "Ivan",
+    "email": "flychicken067@users.noreply.github.com"
+  },
+  "metadata": {
+    "description": "Small, verifiable creator tools for Agent Skills and human-facing UI."
+  },
+  "plugins": [
+    {
+      "name": "ivan-human-ui",
+      "description": "Diagnose and remove generic AI-template patterns from real interfaces, then verify the result.",
+      "source": "./plugins/ivan-human-ui",
+      "category": "design",
+      "tags": ["ui", "design-review", "verification"]
+    },
+    {
+      "name": "ivan-skill-value-cover",
+      "description": "Turn an abstract Agent Skill into a scene-based input/output value cover without inventing evidence.",
+      "source": "./plugins/ivan-skill-value-cover",
+      "category": "productivity",
+      "tags": ["agent-skills", "creator-tools", "visual-storytelling"]
+    }
+  ]
+}
