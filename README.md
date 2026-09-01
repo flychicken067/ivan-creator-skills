@@ -4,10 +4,10 @@
 
 **把“AI 做过了”变成别人一眼能看懂、愿意安装的成品。**
 
-两款可验证的 Agent Skills：一款修掉界面的 AI 模板感，一款把抽象 Skill 变成有使用场景、有前后差异的价值封面。
+三款可验证的 Agent Skills：修掉界面的 AI 模板感、把抽象 Skill 变成价值封面，以及将关系中的数字、物件和定价权写成女性第一人称反转文章。
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-111111.svg)](LICENSE)
-[![Skills](https://img.shields.io/badge/Skills-2-f24b18.svg)](#两款-skill)
+[![Skills](https://img.shields.io/badge/Skills-3-f24b18.svg)](#三款-skill)
 [![Claude Code](https://img.shields.io/badge/Claude_Code-ready-111111.svg)](#安装)
 [![OpenAI Codex](https://img.shields.io/badge/OpenAI_Codex-ready-111111.svg)](#安装)
 [![YouMind installs](https://img.shields.io/badge/YouMind-17_installs_displayed-111111.svg)](#youmind-真实使用情况)
@@ -18,14 +18,15 @@
 
 ---
 
-## 不是更多提示词，而是两种可复用的交付能力
+## 不是更多提示词，而是三种可复用的交付能力
 
 | 你遇到的问题 | 安装后的结果 |
 | --- | --- |
 | 页面能用，但像套模板：全部居中、颜色漂移、卡片堆叠、缺少真实证据 | `ivan-human-ui` 诊断具体问题，按明确约束修改，并留下可核验结果 |
 | Skill 很有用，但封面只有图标或抽象插画，别人看不出为什么要装 | `ivan-skill-value-cover` 把人物、输入、处理和可带走的结果放进同一张价值封面 |
+| 原文关系复杂，数字和物件很多，但改写容易变成性别互换摘要或真人指控 | `sun-study-female-reversal` 先拆定价机制，再写成明确标注虚构的女性第一人称反转 |
 
-## 两款 Skill
+## 三款 Skill
 
 ### 01 · Ivan Human UI
 
@@ -59,6 +60,22 @@
 
 [查看 Skill 原文](plugins/ivan-skill-value-cover/skills/ivan-skill-value-cover/SKILL.md) · [查看案例规则](plugins/ivan-skill-value-cover/skills/ivan-skill-value-cover/references/examples.md)
 
+### 03 · 孙学反转写作
+
+> 她以为自己在试探关系，最后发现自己的试探也进入了对方的计算。
+
+它先从原文中找出数字锚点、物件回声和谁在定价，再建立女性的身体、时间、劳动与退出成本账本，最后用可见证据完成反转。现实人物与争议必须区分事实、推断和虚构，不把写作机制包装成真人指控。
+
+<p align="center">
+  <img src="plugins/sun-study-female-reversal/skills/sun-study-female-reversal/assets/detail-cover-16x9.png" alt="孙学反转写作：从关系账本到女性第一人称反转" width="900">
+</p>
+
+**适合：** 长文拆解、叙事结构学习、女性第一人称虚构写作、镜像文章。
+
+**交付：** 三个孙学机关、6–10 个女性反转节拍、完整文章，以及事实与虚构边界检查。
+
+[查看 Skill 原文](plugins/sun-study-female-reversal/skills/sun-study-female-reversal/SKILL.md) · [查看结构来源说明](plugins/sun-study-female-reversal/skills/sun-study-female-reversal/references/source-analysis.md)
+
 ## 安装
 
 ### OpenAI Codex
@@ -66,6 +83,7 @@
 ```bash
 npx skills add flychicken067/ivan-creator-skills --skill ivan-human-ui
 npx skills add flychicken067/ivan-creator-skills --skill ivan-skill-value-cover
+npx skills add flychicken067/ivan-creator-skills --skill sun-study-female-reversal
 ```
 
 重启会话后，第一次测试时明确调用 `$ivan-human-ui` 或 `$ivan-skill-value-cover`。
@@ -76,6 +94,7 @@ npx skills add flychicken067/ivan-creator-skills --skill ivan-skill-value-cover
 /plugin marketplace add https://github.com/flychicken067/ivan-creator-skills.git
 /plugin install ivan-human-ui@ivan-creator-skills
 /plugin install ivan-skill-value-cover@ivan-creator-skills
+/plugin install sun-study-female-reversal@ivan-creator-skills
 ```
 
 ### WorkBuddy / Doubao Workmates
@@ -86,7 +105,8 @@ npx skills add flychicken067/ivan-creator-skills --skill ivan-skill-value-cover
 
 1. 找一张你认为“能用但很像 AI”的页面截图，运行 `ivan-human-ui`。
 2. 找一份别人看不懂价值的 `SKILL.md`，运行 `ivan-skill-value-cover`。
-3. 只检查三件事：问题是否具体、前后差异是否明显、交付结果是否可继续使用。
+3. 找一篇关系叙事长文，运行 `sun-study-female-reversal`，检查事实、推断和虚构是否分开。
+4. 只检查三件事：问题是否具体、前后差异是否明显、交付结果是否可继续使用。
 
 完整脚本见 [10 分钟创作者测试](docs/10-MINUTE-CREATOR-TEST.zh-CN.md)。
 

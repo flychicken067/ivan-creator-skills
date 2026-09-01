@@ -1,0 +1,11 @@
+{
+  "name": "sun-study-female-reversal",
+  "version": "1.0.0",
+  "description": "Analyze relationship pricing mechanics in a source and write a clearly labeled fictional female-first-person reversal.",
+  "author": {
+    "name": "Ivan"
+  },
+  "license": "MIT",
+  "keywords": ["writing", "narrative-analysis", "female-perspective", "reversal"]
+}
+

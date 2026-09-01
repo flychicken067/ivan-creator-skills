@@ -1,0 +1,32 @@
+{
+  "name": "sun-study-female-reversal",
+  "version": "1.0.0",
+  "description": "Analyze relationship pricing mechanics in a source and write a clearly labeled fictional female-first-person reversal.",
+  "author": {
+    "name": "Ivan",
+    "email": "flychicken067@users.noreply.github.com",
+    "url": "https://github.com/flychicken067"
+  },
+  "homepage": "https://github.com/flychicken067/ivan-creator-skills",
+  "repository": "https://github.com/flychicken067/ivan-creator-skills",
+  "license": "MIT",
+  "keywords": ["writing", "narrative-analysis", "female-perspective", "reversal"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "孙学反转写作",
+    "shortDescription": "Turn relationship accounting into a fictional reversal",
+    "longDescription": "Extracts numbers, recurring objects and narrative pricing power from a source, then writes a clearly labeled fictional female-first-person reversal without presenting speculation as fact.",
+    "developerName": "Ivan",
+    "category": "Writing",
+    "capabilities": ["Read", "Write"],
+    "websiteURL": "https://github.com/flychicken067/ivan-creator-skills",
+    "defaultPrompt": [
+      "Analyze this source and write a clearly labeled fictional female-first-person reversal.",
+      "Find the numbers, objects, and pricing power in this source before writing.",
+      "Build a female relationship ledger and turn it into a grounded narrative reversal."
+    ],
+    "brandColor": "#C86A3A",
+    "screenshots": []
+  }
+}
+

@@ -1,0 +1,8 @@
+interface:
+  display_name: "孙学反转写作"
+  short_description: "拆解关系定价机制，写成女性第一人称反转文章"
+  icon_small: "./assets/market-cover-1x1.png"
+  icon_large: "./assets/detail-cover-16x9.png"
+  brand_color: "#C86A3A"
+  default_prompt: "Use $sun-study-female-reversal to analyze this source and write a clearly labeled fictional female-first-person reversal."
+
