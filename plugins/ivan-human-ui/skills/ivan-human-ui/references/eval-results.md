@@ -7,3 +7,4 @@ Track runs in append-only format.
 | 2026-03-27 | prompt-3  | case-c  |             9 | yes  | Real run complete. Before failed 3 checks; after passed verifier. Evidence: `references/evals/2026-03-27-case-c-real-eval.md` |
 | 2026-03-27 | prompt-2  | case-b  |             9 | yes  | Real run complete. Before failed multiple layout/palette checks; after passed dashboard verifier. Evidence: `references/evals/2026-03-27-case-b-real-eval.md` |
 | 2026-03-27 | prompt-1  | case-a  |               |      | planned                                                                                                                       |
+| 2026-09-01 | prompt-1  | case-a  |             9 | yes  | GitHub 主页由方法说明改为用户价值，加入两款 Skill 的真实 Before/After 与成图、30 秒安装路径、YouMind 官方 600K+ 创作者/20K+ Skills 市场背景及公开状态边界。3/3 图片存在并可读取；层级2、去模板2、字体2、组件1、资产2。Evidence: https://github.com/flychicken067/ivan-creator-skills |
