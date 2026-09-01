@@ -101,6 +101,10 @@ npx skills add flychicken067/ivan-creator-skills --skill sun-study-female-revers
 
 从 [最新 Release](https://github.com/flychicken067/ivan-creator-skills/releases/latest) 下载文件名带 `-workbuddy.zip` 的对应安装包，再在 Skills 页面选择上传。这些包把 `SKILL.md` 放在 ZIP 根目录，适配 WorkBuddy / 豆包工作台的手动上传方式。启用前先检查包内容，并只用脱敏样例测试。
 
+### SkillHub 公开发布
+
+从 [最新 Release](https://github.com/flychicken067/ivan-creator-skills/releases/latest) 下载文件名带 `-skillhub.zip` 的对应发布包。该版本在 ZIP 根目录同时提供 `SKILL.md` 与 `icon.png`，用于 SkillHub 的“发布 Skill”表单；它与本地安装包分开，避免平台字段污染核心 Skill。
+
 ## 30 秒判断它值不值得装
 
 1. 找一张你认为“能用但很像 AI”的页面截图，运行 `ivan-human-ui`。
