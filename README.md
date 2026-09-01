@@ -10,7 +10,7 @@
 [![Skills](https://img.shields.io/badge/Skills-2-f24b18.svg)](#两款-skill)
 [![Claude Code](https://img.shields.io/badge/Claude_Code-ready-111111.svg)](#安装)
 [![OpenAI Codex](https://img.shields.io/badge/OpenAI_Codex-ready-111111.svg)](#安装)
-[![YouMind](https://img.shields.io/badge/YouMind-600K%2B_creators-111111.svg)](#为什么现在发布)
+[![YouMind installs](https://img.shields.io/badge/YouMind-17_installs_displayed-111111.svg)](#youmind-真实使用情况)
 
 [立即安装](#安装) · [看前后对比](#01--ivan-human-ui) · [10 分钟实测](docs/10-MINUTE-CREATOR-TEST.zh-CN.md) · [下载 ZIP](https://github.com/flychicken067/ivan-creator-skills/releases/latest)
 
@@ -90,13 +90,17 @@ npx skills add flychicken067/ivan-creator-skills --skill ivan-skill-value-cover
 
 完整脚本见 [10 分钟创作者测试](docs/10-MINUTE-CREATOR-TEST.zh-CN.md)。
 
-## 为什么现在发布
+## YouMind 真实使用情况
 
-YouMind 官网目前展示 **600K+ 创作者、3M+ 创作、70+ 国家和地区、20K+ 社区 Skills**。这说明 Skill 已经不是个人提示词收藏，而是在进入可搜索、可安装、可复用的创作者市场。
+2026-09-01 登录作者账号逐项核验：两款 Skill 均处于 **分享中**、版本均为 **v5**。YouMind 详情页显示 `孙学反转写作` 安装人数 **8**，`Skill 价值封面生成器` 安装人数 **9**。
 
-> 数据来源：[YouMind 官方首页「YouMind in numbers」](https://youmind.com/)，核验日期：2026-09-01。数字是平台公开口径，不代表本仓库的安装量或用户量。
+| 孙学反转写作 · 安装人数 8 | Skill 价值封面生成器 · 安装人数 9 |
+| --- | --- |
+| <img src="docs/assets/youmind-sunxue-install-8.png" alt="YouMind 孙学反转写作详情页，安装人数 8" width="560"> | <img src="docs/assets/youmind-value-cover-install-9.png" alt="YouMind Skill 价值封面生成器详情页，安装人数 9" width="560"> |
 
-本项目当前公开入口是 GitHub。YouMind 与 Doubao Workmates 中的个人版本是否能被其他用户搜索，取决于对应平台的公开审核与上架状态；本仓库不会把“个人已安装”写成“公开已发布”。
+> 两个页面合计展示 **17 次安装**，但安装者可能重合，因此不能表述为“17 位独立用户”。YouMind 当前页面也没有提供运行次数、留存率或付费转化数据。
+
+GitHub 是本项目的公开源码与安装入口；YouMind 页面承担实际展示和安装验证。本仓库不会把平台总用户规模写成本项目用户数，也不会把安装量写成使用活跃度。
 
 ## 可验证，不夸大
 
