@@ -86,7 +86,7 @@ npx skills add flychicken067/ivan-creator-skills --skill ivan-skill-value-cover
 npx skills add flychicken067/ivan-creator-skills --skill sun-study-female-reversal
 ```
 
-重启会话后，第一次测试时明确调用 `$ivan-human-ui` 或 `$ivan-skill-value-cover`。
+重启会话后，第一次测试时明确调用 `$ivan-human-ui`、`$ivan-skill-value-cover` 或 `$sun-study-female-reversal`。
 
 ### Claude Code
 
@@ -99,7 +99,7 @@ npx skills add flychicken067/ivan-creator-skills --skill sun-study-female-revers
 
 ### WorkBuddy / Doubao Workmates
 
-从 [最新 Release](https://github.com/flychicken067/ivan-creator-skills/releases/latest) 下载对应 ZIP，再在 Skills 页面选择上传。启用前先检查包内容，并只用脱敏样例测试。
+从 [最新 Release](https://github.com/flychicken067/ivan-creator-skills/releases/latest) 下载文件名带 `-workbuddy.zip` 的对应安装包，再在 Skills 页面选择上传。这些包把 `SKILL.md` 放在 ZIP 根目录，适配 WorkBuddy / 豆包工作台的手动上传方式。启用前先检查包内容，并只用脱敏样例测试。
 
 ## 30 秒判断它值不值得装
 
