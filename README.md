@@ -12,7 +12,7 @@
 [![OpenAI Codex](https://img.shields.io/badge/OpenAI_Codex-ready-111111.svg)](#安装)
 [![YouMind installs](https://img.shields.io/badge/YouMind-17_installs_displayed-111111.svg)](#youmind-真实使用情况)
 
-[立即安装](#安装) · [看前后对比](#01--ivan-human-ui) · [10 分钟实测](docs/10-MINUTE-CREATOR-TEST.zh-CN.md) · [下载 ZIP](https://github.com/flychicken067/ivan-creator-skills/releases/latest)
+[立即安装](#安装) · [看前后对比](#01--ivan-human-ui) · [三个真实案例](#真实案例) · [10 分钟实测](docs/10-MINUTE-CREATOR-TEST.zh-CN.md) · [下载 ZIP](https://github.com/flychicken067/ivan-creator-skills/releases/latest)
 
 </div>
 
@@ -113,6 +113,12 @@ npx skills add flychicken067/ivan-creator-skills --skill sun-study-female-revers
 4. 只检查三件事：问题是否具体、前后差异是否明显、交付结果是否可继续使用。
 
 完整脚本见 [10 分钟创作者测试](docs/10-MINUTE-CREATOR-TEST.zh-CN.md)。
+
+## 真实案例
+
+- [Ivan Human UI：从“能用”到“人一眼就懂”](docs/cases/ivan-human-ui.zh-CN.md)
+- [Ivan Skill Value Cover：让陌生人先看懂，再决定安装](docs/cases/ivan-skill-value-cover.zh-CN.md)
+- [孙学反转写作：结构可控的女性反转叙事](docs/cases/sun-study-female-reversal.zh-CN.md)
 
 ## YouMind 真实使用情况
 
